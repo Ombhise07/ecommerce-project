@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Ecommerce</a>
+            <!-- Cart Icon -->
+            <i class='bx bx-cart' id="cart-icon" data-quantity="0"></i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- Content -->
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                        <img src="img/product1.jpeg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Product Shirt</div>
+                            <div class="cart-price">₹500</div>
+                            <input 
+                                type="number" 
+                                name="" 
+                                value="1" 
+                                class="cart-quantity">
+                        </div>
+                        Remove Item
+                        <i class='bx bx-trash-alt cart-remove' ></i>                    
+                    </div> -->
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">₹0</div>
+                </div>
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Pay Now</button>
+                <!-- Close cart -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!-- Shop Content -->
+        <div class="shop-content">
+            <!-- Box 1 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAJ02SwcPpdpFjCtd57MWlDocDyVdAt4wlB9eMuLH1mtJM1jBzD6aL3g3kUwsFkX8BYqIhkCc-vfqdCiBYvtoCYHLpNLItQ37KvalgWr6sfWLK0g-hASnYzmeYIoP15J3MJ23FlNoIhZF4_UYlO1wtgRU4RYVmsJ3xqxrswYsslE63a76SwlZ1pGwQz7Gp/s320/product1.jpeg" 
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">T-Shirt</h2>
+                <span class="price">₹500</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT4_jBEh-ZzZxik_QRMnQLQL3G0Z_O6LIl2O9lEjsHfEdXD7Xr0rkxHH8xBWYxTiZ3Cu1NV8Dy3EQb5xLo-0yOuhDBauqdS-abMVUvVwo2K6DzeUj4chQBqsvS73vWigQ3T-vq8eOsiSMNtFOcLYYtPwc2r_H-HHmwPjSxQyBh4DYL_T6dB-sy8G-BJ7Uw/s320/product2.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Travel Bag</h2>
+                <span class="price">₹700</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hvvInReSbQbx21zoeVEzlBU749lxvdL_WuVsmlZOn52FI2Z0iT7jzk8zsfBLpzjXK8P9arMaXHo_QGuytd3F5EMN-qEB0USx7g8ZmKCsWfkPdqiXAzL_i44eJOqnMdSuvxi9D0BwuPn6gVcaW1HaqOPNx8hA5jOiW6md_PxmkSBkOFYv-bD3UU36jGP6/s320/product3.jpeg" 
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Cap</h2>
+                <span class="price">₹140</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2dp6ZyssfhPKLLn-9EwF-uXJZWFj2ZJVTgXmwLlIpdJR9kp07zBV6h9BCVHo87P1yernwfVQ_N9CZAROUq-T23YjNVLTFTRC-gX6qlBiw9oinjtVNmfU4WoQeSkyqZjIHugyABx7SzvXbJmu9_zVBdm9N6D8CIfkpBIVqRqR__u911JEfLHU_wVeNsBEY/s320/product4.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Ronaldo GOAT TEE</h2>
+                <span class="price">₹700</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 5 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj97lCeT4Kyl3H3NZnSPJhuj62_LjBjGkT8knAWbcSAGbJ5j3Nt8YL-o4X_zFdI5UyBN2vbFlUxWufvtIfyHXKkqQKAyfVFa1IGUM-4IwqnVit5fadXFjatijuqg2fZHl1HdRIcvtTYMjLsmc6H3IU5vmhdgt7FjPUOdK6zqFl852Y4FCPJVLTGtv0ojpy2/s320/product5.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Hoddie</h2>
+                <span class="price">₹1250</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 6 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZd7hushbasad18nVNG3RU8ziRkUnoI8RuA6aFlOKkqBFxyn3ijJASU_zn8h4UHiW4xKbQOQp32SrlLxOQ1SvSYmDLa9545WrEZulhMMu4p08q2rwnRmJADfSC-WEIpA0xWa3QoLL8pPLYZ2lrTeH4_8eeArPFTbDWEvSX2a0ekGA-y3LZAwUAXzKOuxJo/s320/product6.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Airpods</h2>
+                <span class="price">₹1500</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 7 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTd5MAbkllNv4RYfrzbkyjMHzWw4G7Zf8EQCU7TLlI67n1rqV7MzZDjW3OF9Y_efHW3_vyOdsRyWWHIkBJOm4zERaGl0WwviB_wsKOqXY1K3y9FNz7Os-qTAVM83cph9NH5uOQHwvK8sxtiWbf5q6ulbj0yR2rgmGT-92gSkZVfufm1WaIcXU9rc78XMeN/s320/product7.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Water Bottle</h2>
+                <span class="price">₹200</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- Box 8 -->
+            <div class="product-box">
+                <!-- Stripe need images that are on online on local server it will not show in  -->
+                <img src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO8ZYbuTuMRk32v3XqTaknsgmwx7JcUiO9UHLkO1RNZf2pi8bAG9slmjF0qXhSXaastXCesa9c9bzgzfGMZ0SUwyTmRHPPQXgrNUIg9eHjCT_dL2bN9oalDSyqiU6G7dn3rhnFpuZUdt4q53fIPw1G4cw8aUsvh3BouBul0glLqZsT0k_y-p2fXCl0hBJ4/s320/product8.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Shoes</h2>
+                <span class="price">₹1500</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
